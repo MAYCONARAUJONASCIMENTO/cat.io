@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.fundo{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    }  
+
+.fundo img {
+width: 100%;
+height: 100%;
+object-fit: cover ;
+}
+.fundo::after {
+    content: '';
+    width: inherit;
+    height: inherit;
+     position: fixed;
+    inset: 0;
+
+}
+
+
+.gato img {
+
+  right: 5px;
+  top: 140px;
+  z-index: 5;
+position: absolute;
+  width: 1100px;
+  overflow: hidden;
+position: fixed;
+}
+ h1{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: aliceblue;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500px;
+    font-size: 70px;
+  }
+  e{
+   color: rgb(10, 10, 242);
+  }
+  p{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    color: #767575;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  .butt {
+
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border:  rgb(10, 10, 242) solid 1px;
+    color: aliceblue;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+  }
+ .pp{
+    color:  rgb(255, 255, 255) ;
+    position: absolute;
+    top: -2PX;
+    left: 30px;
+
+ }
+
+
+ h2{
+  top: 900px;
+  position: absolute;
+  left: 50px;
+  color: aliceblue;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500px;
+  font-size: 50px;
+  color: aliceblue;
+ }
+ .ppp{
+  position: absolute;
+  top: 1020px;
+  left: 50px;
+  color: #767575;
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+
+h3{
+  top: 1100px;
+  position: absolute;
+  left: 50px;
+  color: aliceblue;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500px;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+ .letra{
+  position: absolute;
+  top: 1225px;
+  left: 50px;
+  color: #767575;
+  font-family: sans-serif;
+  font-size: 14px; 
+}
+
+h4{
+  top: 880px;
+  position: absolute;
+  left: 520px;
+  color: aliceblue;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500px;
+  font-size: 50px;
+  color: aliceblue;
+ }
+ .letra1{
+  position: absolute;
+  top: 1022px;
+  left: 520px;
+  color: #767575;
+  font-family: sans-serif;
+  font-size: 14px;
+
+ }
+ h5{
+  top: 1100px ;
+  position: absolute;
+  left: 520px;
+  color: aliceblue;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500px;
+  font-size: 50px;
+  color: aliceblue;
+ }
+ .letra2{
+  position: absolute;
+  top: 1225px;
+  left: 520px;
+  color: #767575;
+  font-family: sans-serif;
+  font-size: 14px; 
+}
+
+.gta{
+  visibility: hidden;
+}
+.txt{
+  visibility: hidden;
+}
+
+
+h6{
+  top: 1600px ;
+  position: absolute;
+  left: 120px;
+  color: aliceblue;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500px;
+  font-size: 50px;
+  color: aliceblue;
+ }
+footer{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 2200px ;
+}
+
+
+@media (max-width: 959.95px){
+  h1{
+    font-size: 30px;
+  }
+  p{
+    top: 268px;
+    left: 50px;
+    font-size: 6px;
+  }
+
+  .gato img {
+
+    right: 50px;
+    top: 40px;
+    z-index: 5;
+  position: absolute;
+    width: 500px;
+    overflow: hidden;
+  position: fixed;
+  }
+
+}
